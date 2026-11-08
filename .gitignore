@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+target/
+.env.local
+.token-*
+# bot-starter bindings still ignored (regenerated per checkout). Web app's
+# bindings are tracked so the production build doesn't need spacetime CLI.
+bot-starter/src/module_bindings/
+.vercel
+.env*
+
+.token*
+
+*.pem
+
+*.key
+
+HANDOFF.md
+
+bot-starter/sim-ranks/
+
+bot-starter/sim-results.tsv
