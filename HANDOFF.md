@@ -7,6 +7,7 @@ Written 2026-11-07 ~21:30 CST. Owner: Isaac (UT Dallas student, not a developer 
 - Game: **ScrabbleBot** — https://scrabblebot.spacetimedb.com (SpacetimeDB database `scrabblebot` on maincloud). It is a **letter auction**, not board Scrabble.
 - Our team/bot: **Rowin'Boats**, bot id **202**. Isaac's spacetimedb.com account is linked (web identity `c200557470…`).
 - Repo: `C:\Users\Isaac\OneDrive - The University of Texas at Dallas\Desktop\Claude projects\scrabblebot` (clone of github.com/clockworklabs/scrabblebot). Our code lives in `bot-starter/`.
+- **MAIN BOT = V6** (chosen by Isaac 2026-11-07 ~22:35 for Tournament #2; plain `npm start` plays V6; AB_TEST=1 uses ab-rotation.txt, currently `V6`).
 - Deadline: Isaac said "due in 5 hrs" at ~4:20 PM; the **website shows no deadline or submission** — "submission" = bot registered and connected. Only one tournament has ever run (Tournament #1, ended Oct 25, won by K-13). Ask Isaac where the real deadline/judging is.
 
 ## 2. Game rules (from `spacetimedb/src/game.ts`)

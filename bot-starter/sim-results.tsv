@@ -50,3 +50,6 @@
 2026-11-08T02:59:54.067Z	V4a_early10	arena	60	61	2.383	0.156	0.283	81.0	12.5	0.63	{"normalPace":0.7,"maxAggression":4,"volumeA":12,"volumeB":3.5,"earlyVolumeMult":1,"minLongReward":33}
 2026-11-08T02:59:57.012Z	V4b_early10_q	arena	60	61	2.383	0.156	0.283	80.9	12.4	0.63	{"normalPace":0.7,"maxAggression":4,"volumeA":12,"volumeB":3.5,"earlyVolumeMult":1,"minLongReward":33,"qNoUFit":0.6}
 2026-11-08T03:02:31.932Z	V4c_early10_q_late135	arena	60	61	2.450	0.170	0.300	80.7	11.3	0.67	{"normalPace":0.7,"maxAggression":4,"volumeA":12,"volumeB":3.5,"earlyVolumeMult":1,"lateVolumeMult":1.35,"minLongReward":33,"qNoUFit":0.6}
+2026-11-08T04:17:37.194Z	V3	arena	60	71	2.000	0.171	0.500	86.8	14.0	0.47	{"normalPace":0.7,"maxAggression":4,"volumeA":12,"volumeB":3.5,"minLongReward":33}
+2026-11-08T04:18:36.602Z	V6words	arena	60	71	2.208	0.159	0.350	82.4	12.0	0.42	{"normalPace":0.7,"maxAggression":4,"volumeA":12,"volumeB":3.5,"minLongReward":33,"qualityWords":1}
+2026-11-08T04:18:43.302Z	V6	arena	60	71	2.292	0.150	0.300	80.4	10.9	0.55	{"normalPace":0.7,"maxAggression":4,"volumeA":12,"volumeB":3.5,"lateVolumeMult":1.4,"minLongReward":33,"qualityWords":1,"selectiveSpending":1}

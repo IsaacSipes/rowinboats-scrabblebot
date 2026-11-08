@@ -88,7 +88,9 @@ function variantFor(matchId: bigint): string {
   } catch {
     // no file: use the environment
   }
-  const v = AB ? rotation[matchVariant.size % rotation.length]! : "A";
+  // Main bot = V6. Without AB_TEST=1 (e.g. a plain `npm start`) every match
+  // is played as V6; A/B rotation only happens when AB_TEST=1.
+  const v = AB ? rotation[matchVariant.size % rotation.length]! : (process.env.MAIN_VARIANT ?? "V6");
   matchVariant.set(key, v);
   if (AB) {
     fs.appendFileSync(AB_LOG, `${key}\t${v}\t${new Date().toISOString()}\n`);
